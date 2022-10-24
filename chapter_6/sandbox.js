@@ -1,8 +1,8 @@
-// const button = document.querySelector('button');
+const button = document.querySelector('button');
 
-// button.addEventListener('click', () => {
-//   console.log('you clicked me');
-// });
+button.addEventListener('click', () => {
+  console.log('you clicked me');
+});
 
 const items = document.querySelectorAll('li');
 
