@@ -6,11 +6,11 @@
 
 const paras = document.querySelectorAll('p');
 
-paras.forEach(p => {
-  if(p.textContent.includes('error')){
-    p.classList.add('error');
-  } else if(p.textContent.includes('success')) {
-    p.classList.add('success');
+paras.forEach(para => {
+  if(para.textContent.includes('error')){
+    para.classList.add('error');
+  } else if(para.textContent.includes('success')) {
+    para.classList.add('success');
   }
 });
 
