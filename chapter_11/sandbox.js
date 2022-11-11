@@ -9,7 +9,7 @@ const tick = () => {
 //   const m = now.getMinutes();
 //   const s = now.getSeconds();
 
-  const html = `<span>${localeTimeString}<span>`;
+  const html = `<span>${localeTimeString}</span>`;
   
 //   `
 //     <span>${h}</span> :
